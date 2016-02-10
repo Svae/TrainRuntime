@@ -1,0 +1,24 @@
+!SESSION 2016-02-09 15:34:41.593 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Command-line arguments:  -console
+
+!ENTRY org.eclipse.osgi 4 0 2016-02-09 15:34:42.043
+!MESSAGE Bundle /.org.apache.felix.gogo.command_0.10.0.v201209301215.jar@start not found.
+
+!ENTRY org.eclipse.osgi 4 0 2016-02-09 15:34:42.043
+!MESSAGE Bundle /.org.apache.felix.gogo.shell_0.10.0.v201212101605.jar@start not found.
+
+!ENTRY org.eclipse.osgi 4 0 2016-02-09 15:34:42.052
+!MESSAGE Bundle /.org.eclipse.equinox.console_1.1.100.v20141023-1406.jar@start not found.
+
+!ENTRY org.eclipse.osgi 4 0 2016-02-09 15:34:42.090
+!MESSAGE Could not find bundle: false 
+!STACK 0
+org.osgi.framework.BundleException: Could not find bundle: false 
+	at org.eclipse.core.runtime.internal.adaptor.ConsoleManager.checkForConsoleBundle(ConsoleManager.java:58)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:331)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:231)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.main(EclipseStarter.java:208)
